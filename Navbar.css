@@ -1,0 +1,59 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px; /* Adjust as needed */
+    background-color: #307570; /* Dark gray */
+}
+
+.navbar-container {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-link {
+    margin: 0 10px; /* Adjust spacing between links */
+    text-decoration: none;
+    color: #ffffff; /* White */
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.navbar-link:hover {
+    color: #cccccc; /* Light gray on hover */
+}
+
+.navbar-shape {
+    width: 30px; /* Adjust shape width */
+    height: 30px; /* Adjust shape height */
+    background-color: #ff5733; /* Orange */
+    border-radius: 50%; /* For circle shape */
+    margin: 0 20px; /* Adjust spacing between shapes */
+    animation: bounce 2s infinite; /* Example animation */
+}
+
+@keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+    margin-right: auto; /* Pushes "Employee" link and search input to the right */
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+    margin-left: auto; /* Pushes "Home" link and search input to the left */
+}
+
+.navbar-link {
+    margin-right: 40px; /* Adjust spacing between links */
+}
+
+.search-input {
+    margin-left: 40px; /* Adjust spacing between links and search input */
+}

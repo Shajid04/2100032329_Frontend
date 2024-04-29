@@ -1,0 +1,74 @@
+.employee-table-box {
+    border: 2px solid #27ae60;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f0f5f9;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th, .table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+.table th {
+    background-color: #27ae60;
+    color: white;
+}
+
+.table tbody tr:nth-child(odd) {
+    background-color: #ecf0f1;
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #dfe6e9;
+}
+
+.table tbody tr:hover {
+    background-color: #bdc3c7;
+}
+
+.btn-primary {
+    background-color: #2980b9 !important;
+    border-color: #2980b9 !important;
+}
+
+.btn-danger {
+    background-color: #c0392b !important;
+    border-color: #c0392b !important;
+}
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+    color: #555;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
